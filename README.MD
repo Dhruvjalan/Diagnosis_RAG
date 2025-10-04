@@ -39,9 +39,9 @@ This one-time process prepares the environment, downloads data, and builds the R
 
 1.  **Clone the Repository & Install Dependencies:**
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-name>
+    git clone git@github.com:Dhruvjalan/Diagnosis_RAG.git
     pip install -r requirements.txt
+
     ```
 2.  **Configure Secrets:** In your Google Colab environment, go to the "Secrets" tab (key icon) and add your `GROQ_API_KEY`.
 3.  **Run the Setup & Indexing Cells:** In your Colab notebook, execute the following cells in order:
@@ -82,5 +82,5 @@ About out submission:
     rag/output/rag_corpus = the corpus created out of snippets.
     rag_output/synthea_faiss.index = inrdex file of the synthea corpus data, converted into embeddings. 
 
-##GITHUB: 
-git@github.com:Dhruvjalan/Task3_HybridRAG.git
+## GITHUB: 
+git@github.com:Dhruvjalan/Diagnosis_RAG.git
