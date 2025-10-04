@@ -4,14 +4,15 @@
 
 This project is a sophisticated clinical decision support system that leverages a multi-agent architecture, a hybrid Retrieval-Augmented Generation (RAG) pipeline with cross-encoder re-ranking, and standardized MCP tools to assist in clinical diagnosis.
 
+## Demo Videos: 
+https://drive.google.com/drive/folders/1VjIfOX23yUf9_gxnB2PH47jpx2UEHafm?usp=sharing
+
 ## Architecture Diagram: 
 
 ![Architecture Diagram](Assets/RAG_Architecture.jpg)
 
-## Demo Videos: 
-https://drive.google.com/drive/folders/1VjIfOX23yUf9_gxnB2PH47jpx2UEHafm?usp=sharing
 
-## 🌟 Key Features
+##  Key Features
 
 * **Three-Agent Pipeline:** A structured workflow with a `ClinicalQAAgent`, `TriageAgent`, and `DiagnosisAgent` for comprehensive analysis.
 * **Advanced RAG:** Implements a two-stage retrieval process using a fast bi-encoder (ClinicalBERT) and a more accurate cross-encoder for re-ranking, ensuring high-quality evidence is used.
@@ -19,7 +20,7 @@ https://drive.google.com/drive/folders/1VjIfOX23yUf9_gxnB2PH47jpx2UEHafm?usp=sha
 * **Fine-Tuning Ready:** Includes complete scripts for Domain-Adaptive Pre-training (DAPT) and parameter-efficient fine-tuning with LoRA.
 * **Comprehensive Evaluation:** A built-in evaluation framework that generates five required submission-ready output files (`retrieval_results.jsonl`, `qa_results.jsonl`, `triage_results.jsonl`, `diagnosis_results.jsonl`, `system_metrics.json`).
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The system operates on a structured pipeline that processes patient data through a series of specialized agents.
 
@@ -30,7 +31,7 @@ The system operates on a structured pipeline that processes patient data through
 
 
 
-## 🚀 Setup and Execution
+##  Setup and Execution
 
 ### 1. Initial Setup (Run Once)
 
