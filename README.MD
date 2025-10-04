@@ -1,6 +1,11 @@
 # Multi-Agent Clinical Decision Support System
 
+
+
 This project is a sophisticated clinical decision support system that leverages a multi-agent architecture, a hybrid Retrieval-Augmented Generation (RAG) pipeline with cross-encoder re-ranking, and standardized MCP tools to assist in clinical diagnosis.
+
+## Demo Videos: 
+https://drive.google.com/drive/folders/1VjIfOX23yUf9_gxnB2PH47jpx2UEHafm?usp=sharing
 
 ## 🌟 Key Features
 
@@ -71,5 +76,6 @@ About out submission:
     rag_output/planner_finetuning_data.jsonl - fine tuining model data
     rag/output/rag_corpus = the corpus created out of snippets.
     rag_output/synthea_faiss.index = inrdex file of the synthea corpus data, converted into embeddings. 
-Demo_Videos: https://drive.google.com/drive/folders/1VjIfOX23yUf9_gxnB2PH47jpx2UEHafm?usp=sharing
-GITHUB: git@github.com:Dhruvjalan/Task3_HybridRAG.git
+
+##GITHUB: 
+git@github.com:Dhruvjalan/Task3_HybridRAG.git
