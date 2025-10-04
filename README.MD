@@ -4,6 +4,10 @@
 
 This project is a sophisticated clinical decision support system that leverages a multi-agent architecture, a hybrid Retrieval-Augmented Generation (RAG) pipeline with cross-encoder re-ranking, and standardized MCP tools to assist in clinical diagnosis.
 
+## Architecture Diagram: 
+
+![Architecture Diagram](Assets/RAG_Architecture.jpg)
+
 ## Demo Videos: 
 https://drive.google.com/drive/folders/1VjIfOX23yUf9_gxnB2PH47jpx2UEHafm?usp=sharing
 
